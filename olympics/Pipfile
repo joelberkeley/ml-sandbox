@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+"h5py" = "*"
+pydot-ng = "*"
+tensorflow-gpu = "*"
+keras = "*"
+jupyter = "*"
+pandas = "*"
+scikit-learn = "*"
+"ruamel.yaml" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
